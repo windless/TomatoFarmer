@@ -6,6 +6,10 @@ require 'sugarcube-constants'
 require 'sugarcube-timer'
 require 'sugarcube-events'
 require 'sugarcube-animations'
+require 'sugarcube-uikit'
+require 'sugarcube-color'
+
+require 'bubble-wrap/core'
 
 begin
   require 'bundler'
@@ -15,5 +19,5 @@ end
 
 Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
-  app.name = 'TomatoFarmer'
+  app.name = '番茄农夫'
 end
